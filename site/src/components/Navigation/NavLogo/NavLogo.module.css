@@ -1,0 +1,36 @@
+.Logo {
+  margin-top: -40px;
+}
+
+.Logo p {
+  display: inline-block;
+  margin: 0 0 0 25px;
+  font-family: "Once Upon A Time";
+  font-size: 20px;
+  color: #10cbfa;
+  font-weight: bold;
+  text-shadow: -1px 0 #268799, 0 1px #268799, 1px 0 #268799, 0 -1px #268799;
+}
+
+.LogoGlow {
+  display: inline-block;
+  margin: 0 0 -6px 10px;
+  height: 25px;
+  width: 17px;
+  background-color: #10cbfa;
+  border: 1px solid #30abc1;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  animation: glow 3000ms infinite;
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 10px #10cbfa; }
+  10% { box-shadow: 0 0 20px #10cbfa; }
+  20% { box-shadow: 0 0 30px #10cbfa; }
+  40% { box-shadow: 0 0 40px #10cbfa; }
+  60% { box-shadow: 0 0 40px #10cbfa; }
+  80% { box-shadow: 0 0 30px #10cbfa; }
+  90% { box-shadow: 0 0 20px #10cbfa; }
+  100% { box-shadow: 0 0 10px #10cbfa; }
+}

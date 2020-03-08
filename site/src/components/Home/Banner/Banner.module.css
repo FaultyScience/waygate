@@ -1,0 +1,47 @@
+.Banner {
+  margin: 80px 0 0 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.BannerFont {
+  margin: 20px 0 0 0;
+  font-family: "Once Upon A Time";
+  font-size: 60px;
+  color: #10cbfa;
+  font-weight: bold;
+  text-shadow: -1px 0 #268799, 0 1px #268799, 1px 0 #268799, 0 -1px #268799;
+}
+
+.Tagline {
+  margin: 6px 0 0 0;
+  font-family: "Baarmi";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.LogoGlow {
+  display: inline-block;
+  margin: 0 0 0 0;
+  height: 150px;
+  width: 102px;
+  background-color: #10cbfa;
+  border: 1px solid #30abc1;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  animation: glow 3000ms infinite;
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 20px #10cbfa; }
+  10% { box-shadow: 0 0 40px #10cbfa; }
+  20% { box-shadow: 0 0 60px #10cbfa; }
+  30% { box-shadow: 0 0 80px #10cbfa; }
+  40% { box-shadow: 0 0 100px #10cbfa; }
+  50% { box-shadow: 0 0 100px #10cbfa; }
+  60% { box-shadow: 0 0 100px #10cbfa; }
+  70% { box-shadow: 0 0 80px #10cbfa; }
+  80% { box-shadow: 0 0 60px #10cbfa; }
+  90% { box-shadow: 0 0 40px #10cbfa; }
+  100% { box-shadow: 0 0 20px #10cbfa; }
+}

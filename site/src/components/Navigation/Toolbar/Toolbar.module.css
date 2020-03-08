@@ -1,0 +1,38 @@
+.Toolbar {
+  margin-top: 16px;
+  height: 50px;
+}
+
+.Wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.Toolbar ul {
+  display: inline-flex;
+  margin: 16px 0 0 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.MarketplaceNav {
+  margin-top: -1px;
+  width: 100%;
+  background-color: #3172ce;
+  border-top: 1px solid #303e8e;
+  border-bottom: 1px solid #303e8e;
+  text-align: center;
+}
+
+.MarketplaceNav ul {
+  margin: 12px;
+}
+
+.MarketplaceNav ul li {
+  color: #ffffff;
+}
+
+.Hidden {
+  display: none;
+}

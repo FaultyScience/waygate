@@ -1,0 +1,19 @@
+.MarketNavItem {
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.MarketNavItem a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.2s ease-out;
+}
+
+.MarketNavItem a:hover,
+.MarketNavItem a:active,
+.MarketNavItem a.active {
+  color: #f4ce35;
+  transition: all 0.2s ease-out;
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Once Upon A Time";
+  src: url("./assets/fonts/OnceUponATime.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Baarmi";
+  src: url("./assets/fonts/baarmi__.TTF");
+}
+
+@font-face {
+  font-family: "Eyecicles";
+  src: url("./assets/fonts/EYECIC__.ttf");
+}
+
+.App {
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #637280;
+}

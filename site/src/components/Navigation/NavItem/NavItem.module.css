@@ -1,0 +1,36 @@
+.NavItem {
+  padding: 6px 20px 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.NavItem a {
+  width: 100%;
+  text-decoration: none;
+  color: #637280;
+  transition: all 0.2s ease-out;
+}
+
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active {
+  color: #10cbfa;
+  transition: all 0.2s ease-out;
+}
+
+.Marketplace {
+  padding: 4px 19px 0 19px;
+  background-color: #3172ce;
+  color: #ffffff;
+  border-top: 1px solid #303e8e;
+  border-right: 1px solid #303e8e;
+  border-left: 1px solid #303e8e;
+  border-bottom: 1px solid #3172ce;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.Marketplace a:active,
+.Marketplace a.active {
+  color: #ffffff;
+}

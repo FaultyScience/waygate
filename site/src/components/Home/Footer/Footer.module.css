@@ -1,0 +1,20 @@
+.Footer {
+  margin: 50px 0 0 0;
+  padding-bottom: 10px;
+  background-color: #282828;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Footer h4 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-weight: bold;
+}
+
+.Note {
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  font-size: 14px;
+}

@@ -1,0 +1,72 @@
+.HowItWorks {
+  margin: 50px 0 0 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.HowItWorks h2 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  color: #3172ce;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.HowItWorks ul {
+  margin: 40px 40px 40px 30px;
+  padding-left: 40px;
+  list-style: none;
+  text-align: left;
+}
+
+.HowItWorks ul li {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.HowItWorks ul li::before {
+  content: "y";
+  display: inline-block;
+  margin: 0 14px 0 -30px;
+  padding-bottom: 5px;
+  font-family: "Eyecicles";
+  color: #3172ce;
+  vertical-align: middle;
+}
+
+.HowItWorks a {
+  color: blue;
+}
+
+.Wrapper {
+  margin: 40px auto 30px auto;
+  height: 30px;
+  width: 100px;
+}
+
+.Button {
+  margin: 0;
+  padding: 5px 10px;
+  height: 30px;
+  width: 100px;
+  background-color: #3172ce;
+  border: 1px solid #303e8e;
+  border-radius: 5%;
+  transition: all 0.2s ease-out;
+}
+
+.Button span {
+  vertical-align: middle;
+}
+
+.Wrapper a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Button:hover {
+  background-color: #0e3db5;
+  text-shadow: none;
+  transition: all 0.2s ease-out;
+}

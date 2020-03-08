@@ -1,0 +1,13 @@
+.Marketplace {
+  margin: 50px 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.Marketplace h2 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  color: #3172ce;
+  font-weight: lighter;
+  font-size: 30px;
+}
